@@ -19,6 +19,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  sensors_plus: ^2.0.5
+  flutter_animated_icons: ^1.0.1
+  camera: ^0.10.3
+  qr_code_scanner: ^0.7.0
+  salomon_bottom_bar: ^3.3.2
 
 dev_dependencies:
   flutter_test:
@@ -30,6 +35,10 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^1.0.0
+  flutter_driver:
+    sdk: flutter
+  bdd_widget_test: ^1.2.1
+  build_runner: ^2.3.3
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
